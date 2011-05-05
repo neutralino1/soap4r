@@ -21,4 +21,3 @@ SPEC = Gem::Specification.new do |s|
   s.instance_variable_set :@cert_chain, []
   s.add_dependency("httpclient", ">= 2.1.1")
 end
-p SPEC.cert_chain
