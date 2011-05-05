@@ -18,6 +18,6 @@ SPEC = Gem::Specification.new do |s|
   s.test_file = "test/runner.rb"
   # disable rdoc generation until we've got more
   # s.has_rdoc = false
-  s.instance_variable_set :@cert_chain, []
+  s.cert_chain = ["/Users/austin/.gem/gem-public_cert.pem"]
   s.add_dependency("httpclient", ">= 2.1.1")
 end
