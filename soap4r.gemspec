@@ -22,4 +22,3 @@ SPEC = Gem::Specification.new do |s|
   s.add_dependency("httpclient", ">= 2.1.1")
 end
 p SPEC.cert_chain
-p SPEC.attribute_names.map { |a| a.to_s }.sort
