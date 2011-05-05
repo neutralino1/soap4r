@@ -17,6 +17,6 @@ SPEC = Gem::Specification.new do |s|
   # don't reference the test until we see it execute fully and successfully
   s.test_file = "test/runner.rb"
   # disable rdoc generation until we've got more
-  s.has_rdoc = false
+  # s.has_rdoc = false
   s.add_dependency("httpclient", ">= 2.1.1")
 end
